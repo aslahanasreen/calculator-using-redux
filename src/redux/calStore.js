@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import counterSlice from './slice'
 
-const globalStore = configureStore({
+const glStore = configureStore({
     reducer:{
         counterReducer : counterSlice
     }
 })
 
-export default globalStore
+export default glStore
